@@ -170,7 +170,7 @@ By default the `<div>` containing feature images is set to have a minimum height
 
 ```scss
 $feature-image-height: 400px; // min 150px recommended
-$front-page-feature-image-height: 400px; // min 150px recommended
+$front-page-feature-image-height: 200px; // min 150px recommended
 ```
 
 #### Post/Page Thumbnails for OG and Twitter Cards
