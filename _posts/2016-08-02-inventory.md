@@ -17,6 +17,7 @@ category: プロビジョニング
    - []で囲むとグループ、それ以外はホストを表す
    - 正規表現やor/not/and指定なども可能
    
+   
 ```
 mail.example.com
 
@@ -29,6 +30,7 @@ one.example.com
 two.example.com
 three.example.com
 ```
+
 - ホストの設定
    - target-host: 任意のAnsible上でのターゲット・ホスト名。ansible_hostを指定しない場合、この名前が接続用の実ホスト名となる。
    - ansible_host: 実接続用のホスト名（vagrant ssh-configのホスト名に対応）
