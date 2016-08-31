@@ -17,18 +17,18 @@ category: プロビジョニング
    - []で囲むとグループ、それ以外はホストを表す
    - 正規表現やor/not/and指定なども可能
    
-   
-    mail.example.com
+```
+mail.example.com
 
-    [webservers]
-    foo.example.com
-    bar.example.com
+[webservers]
+foo.example.com
+bar.example.com
 
-    [dbservers]
-    one.example.com
-    two.example.com
-    three.example.com
-
+[dbservers]
+one.example.com
+two.example.com
+three.example.com
+```
 - ホストの設定
    - target-host: 任意のAnsible上でのターゲット・ホスト名。ansible_hostを指定しない場合、この名前が接続用の実ホスト名となる。
    - ansible_host: 実接続用のホスト名（vagrant ssh-configのホスト名に対応）
@@ -36,13 +36,14 @@ category: プロビジョニング
    - ansible_user: ログインユーザー名
    - ansible_connection: 接続形式
 
+```
+[targets]
 
-    [targets]
+localhost              ansible_connection=local
+other1.example.com     ansible_connection=ssh        ansible_user=mpdehaan
+other2.example.com     ansible_connection=ssh        ansible_user=mdehaan
+```
 
-    localhost              ansible_connection=local
-    other1.example.com     ansible_connection=ssh        ansible_user=mpdehaan
-    other2.example.com     ansible_connection=ssh        ansible_user=mdehaan
-    
 > 
 [パラメータ詳細は以下を参照  
 List of Behavioral Inventory Parameters](http://docs.ansible.com/ansible/intro_inventory.html#list-of-behavioral-inventory-parameters)  
