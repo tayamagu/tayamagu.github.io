@@ -73,11 +73,11 @@ table, td, th {
 		color: lighten($base-color,20);
 
 		@media #{$medium} {
-			@include font-rem(48);
+			@include font-rem(18);
 		}
 
 		@media #{$large} {
-			@include font-rem(60);
+			@include font-rem(18);
 		}
 	}
 
