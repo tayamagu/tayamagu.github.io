@@ -8,7 +8,7 @@ pre.highlight {
 
 .highlight {
 	margin-bottom: 1.5em;
-	@include font-rem(12);
+	@include font-rem(10);
 	line-height: 1.5;
 	color: #d0d0d0;
 	border: 1px solid darken($body-color, 5);

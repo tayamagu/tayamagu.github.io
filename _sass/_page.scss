@@ -399,7 +399,7 @@ header .entry-meta {
 }
 
 .read-more-content {
-	@include font-size(16);
+	@include font-size(12);
 
 	// Dotted line underlines for links
 	p > a,
