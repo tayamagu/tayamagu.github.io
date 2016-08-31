@@ -6,8 +6,8 @@
    Page
    ========================================================================== */
 
-$feature-image-height            : 200px; // min 150px recommended
-$front-page-feature-image-height : 200px; // min 150px recommended
+$feature-image-height            : 150px; // min 150px recommended
+$front-page-feature-image-height : 150px; // min 150px recommended
 
 /* 
    Typography
@@ -19,8 +19,8 @@ $caption-font                    : $base-font;
 $code-font                       : monospace;
 $alt-font                        : serif;
 
-$doc-font-size                   : 14;
-$doc-line-height                 : 26;
+$doc-font-size                   : 12;
+$doc-line-height                 : 20;
 
 
 // set-up the body font-size / line-height
