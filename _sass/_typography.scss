@@ -20,10 +20,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	@include font-rem(28);
+	@include font-rem(24);
 
 	@media #{$medium} {
-		@include font-rem(32);
+		@include font-rem(26);
 	}
 }
 
