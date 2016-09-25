@@ -112,7 +112,7 @@ p,
 li { 
 
 	code {
-		@include font-rem(12);
+		@include font-rem(10);
 		line-height: 1.5;
 		white-space: nowrap;
 		margin: 0 2px;
@@ -125,7 +125,7 @@ li {
 
 pre {
 
-	@include font-rem(12);
+	@include font-rem(10);
 	line-height: 1.5;
 	overflow-x: auto;
 
